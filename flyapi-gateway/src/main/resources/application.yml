@@ -1,0 +1,42 @@
+server:
+  port: 8090
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api_route
+          uri: http://localhost:8123
+          predicates:
+            - Path=/api/**
+#        - id: add_request_header_route
+#          uri: http://localhost:8123
+#          predicates:
+#            - Path=/api/**
+#          filters:
+#            - AddRequestHeader=fly,swag
+#            - AddRequestParameter=name,dog
+#            - name: CircuitBreaker
+#              args:
+#                name: myCircuitBreaker
+#                fallbackUri: forward:/fallback
+#        - id: ingredients-fallback
+#          uri: https://www.baidu.com
+#          predicates:
+#            - Path=/fallback
+logging:
+  level:
+    org:
+      springframwork:
+        cloud:
+          gateway: trace
+
+
+dubbo:
+  application:
+    name: dubbo-springboot-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://localhost:8848

@@ -1,0 +1,10 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+
+
+flyapi:
+  client:
+    access-key: fly
+    secret-key: abcdef
