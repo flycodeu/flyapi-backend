@@ -36,5 +36,17 @@ API接口调用平台，用户可以注册登录，可以使用接口，并且�
 - nacos 注册中心
 - dubbo 分布式框架服务
 
+# 附一些运行界面图
+## 接口管理
+![image](https://user-images.githubusercontent.com/89577685/235394888-8c749671-6edc-438b-84a7-51c59233598b.png)
 
-访问 localhost:7529/api/doc.html 就能在线调试接口了，不需要前端配合啦~
+## 用户管理
+![image](https://user-images.githubusercontent.com/89577685/235394908-89fbe26e-8909-4666-92a1-d165ecc51765.png)
+
+## 接口分析
+![image](https://user-images.githubusercontent.com/89577685/235394926-27047e70-0e9d-434a-9c87-539b1f0cb8fe.png)
+
+## 调用接口
+![image](https://user-images.githubusercontent.com/89577685/235394958-f8e9e8ea-5779-40a4-9b3f-c49fcf23693d.png)
+![image](https://user-images.githubusercontent.com/89577685/235394966-88e5fd42-f5aa-4f52-a748-cd92dd5f2187.png)
+
