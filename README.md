@@ -14,7 +14,7 @@ API接口调用平台，用户可以注册登录，可以使用接口，并且�
 # 设计思路
 开发一个接口，普通用户可以进行调用，但是有调用次数限制，需要通过accessKey和secretKey来进行验证用户是否可以调用接口。
 开发者可以发布接口给用户使用，需要满足一些发布条件。如下图
-![image](https://user-images.githubusercontent.com/89577685/235394387-e336258c-ceed-4eb3-bd42-6f5e121d7cda.png)
+![image](https://user-images.githubusercontent.com/89577685/236359229-1838e13d-e5be-4c82-bf19-d832638e52d9.png)
 
 
 
@@ -35,8 +35,11 @@ API接口调用平台，用户可以注册登录，可以使用接口，并且�
 - 自定义错误码
 - 封装通用响应类
 - 用户注册、登录、搜索功能
+- 自定义stater
+- Spring Cloud GateWay
 - nacos 注册中心
 - dubbo 分布式框架服务
+
 
 # 附一些运行界面图
 ## 接口管理
